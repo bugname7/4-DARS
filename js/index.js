@@ -56,15 +56,67 @@
 //   console.log("haydaldin ukam");
 // }
 
-// 7-masala
-let Number1 = +prompt("biriinchi son ");
-let Number2 = +prompt("ikkinci son ");
-let Number3 = +prompt("uchinchi son ");
-let katta = Number1;
+// 8-masala
 
-if (Number1 >= Number2) {
- 
-}
-else if (res > Number3){
-  res = 
+// let raqam = +prompt("shu yerga kiriitng");
+// if (raqam.length == 5) {
+//   console.log("Besh xonali");
+// } else {
+//   console.log("Besh xonali emas");
+// }
+
+// 9-masala
+// let oy = +prompt("Oyni kiriting (1-12):");
+// if (oy >= 3 && oy <= 5) {
+//   console.log("bahor");
+// } else if (oy >= 6 && oy <= 8) {
+//   console.log("yoz");
+// } else if (oy >= 9 && oy <= 11) {
+//   console.log("kuz");
+// } else {
+//   console.log("qfish");
+// }
+// 10-masala
+// let kun = prompt("Haftaning kunlari (1-7):");
+// if (kun >= 1 && kun <= 5) {
+//   console.log("ish kuni");
+// } else {
+//   console.log("dam kuni");
+// }
+// 11-masala
+// let yil = prompt("yilingzni yozing:");
+// if (yil >= 2005) {
+//   console.log("kichkina");
+// } else {
+//   console.log("kotta odam");
+// }
+// 12-dars
+// let soat = prompt("vaqtni kiritn (0-24):");
+// if (soat >= 8 && soat <= 18) {
+//   console.log("Ish vaqti");
+// } else {
+//   console.log("tanafus");
+// }
+// 13-dars
+// let value = prompt("qiymat kiritin:");
+// if (!isNaN(value)) {
+//   console.log("bu raqam");
+// } else {
+//   console.log("raqam emas");
+// }
+// 14-dars
+// let number1 = +prompt("birinchi sonni kiritin:");
+// let number2 = +prompt("-kkinchi sonni kiritin:");
+
+// if (number1 > 100) {
+//   console.log("kotta son");
+// } else {
+//   console.log("kicik son");
+// }
+// 15-dars
+let yosh = +prompt("yoshingizni kiritin:");
+if (yosh < 18) {
+  console.log("bepul kirish");
+} else {
+  console.log("kirish pulli");
 }
